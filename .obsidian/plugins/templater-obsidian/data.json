@@ -1,0 +1,34 @@
+{
+  "enabled_folders_templater": true,
+  "templates_folder": "Plantillas",
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "templater_trigger_on_file_creation": true,
+  "enable_ribbon_icon": true,
+  "command_timeout": 5,
+  "empty_file_template": "",
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [],
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "00 - Inbox",
+      "template": "Plantillas/Nota General.md"
+    },
+    {
+      "folder": "01 - Notas Permanentes",
+      "template": "Plantillas/Nota Permanente.md"
+    },
+    {
+      "folder": "02 - Proyectos",
+      "template": "Plantillas/Proyecto.md"
+    },
+    {
+      "folder": "Diario",
+      "template": "Plantillas/Nota Diaria.md"
+    }
+  ]
+}

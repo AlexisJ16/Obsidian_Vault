@@ -1,0 +1,14 @@
+/* PKM Vault — Custom styles */
+
+/* Highlight inline Dataview fields */
+.inline-field-key {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+/* Tag color by category */
+.tag[href="#académico"] { background-color: #4a90d9; }
+.tag[href="#profesional"] { background-color: #27ae60; }
+.tag[href="#personal"] { background-color: #8e44ad; }
+.tag[href="#recurso"] { background-color: #e67e22; }
+.tag[href="#proyecto"] { background-color: #c0392b; }

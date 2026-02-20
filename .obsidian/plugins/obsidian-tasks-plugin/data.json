@@ -1,0 +1,18 @@
+{
+  "globalFilter": "",
+  "globalFilterMatch": "contains",
+  "removeGlobalFilter": false,
+  "setDoneDate": true,
+  "startDate": "",
+  "dueDate": "",
+  "scheduledDate": "",
+  "doneDate": "",
+  "recurrenceSymbol": "🔁",
+  "startDateSymbol": "🛫",
+  "createdDateSymbol": "➕",
+  "scheduledDateSymbol": "⏳",
+  "dueDateSymbol": "📅",
+  "doneDateSymbol": "✅",
+  "useFilenameAsScheduledDate": false,
+  "taskStatuses": []
+}

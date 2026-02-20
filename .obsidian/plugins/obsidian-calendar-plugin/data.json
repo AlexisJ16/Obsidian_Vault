@@ -1,0 +1,10 @@
+{
+  "wordsPerDot": 250,
+  "showCurrentNote": true,
+  "showDaysOfWeek": true,
+  "showWeeklyNote": true,
+  "weeklyNoteFormat": "gggg-[W]ww",
+  "weeklyNoteTemplate": "Plantillas/Nota Semanal.md",
+  "weeklyNoteFolderPath": "Diario/Semanales",
+  "localeOverride": "es"
+}

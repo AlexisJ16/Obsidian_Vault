@@ -1,0 +1,32 @@
+{
+  "dailyNote": {
+    "enabled": true,
+    "format": "YYYY-MM-DD",
+    "folder": "Diario/Diarios",
+    "template": "Plantillas/Nota Diaria.md"
+  },
+  "weeklyNote": {
+    "enabled": true,
+    "format": "gggg-[W]ww",
+    "folder": "Diario/Semanales",
+    "template": "Plantillas/Nota Semanal.md"
+  },
+  "monthlyNote": {
+    "enabled": false,
+    "format": "YYYY-MM",
+    "folder": "Diario/Mensuales",
+    "template": "Plantillas/Nota Mensual.md"
+  },
+  "quarterlyNote": {
+    "enabled": false,
+    "format": "YYYY-[Q]Q",
+    "folder": "Diario/Trimestrales",
+    "template": ""
+  },
+  "yearlyNote": {
+    "enabled": false,
+    "format": "YYYY",
+    "folder": "Diario/Anuales",
+    "template": ""
+  }
+}

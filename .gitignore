@@ -1,0 +1,13 @@
+# Obsidian workspace and cache (local, not to sync)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/obsidian-git/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak

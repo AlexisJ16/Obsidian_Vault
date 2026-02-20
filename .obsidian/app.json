@@ -1,0 +1,12 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "Adjuntos",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00 - Inbox",
+  "showUnsupportedFiles": false,
+  "spellcheck": true,
+  "spellcheckLanguages": ["es", "en"]
+}

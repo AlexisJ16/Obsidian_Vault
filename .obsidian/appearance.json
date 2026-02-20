@@ -1,7 +1,4 @@
 {
-  "theme": "moonstone",
-  "baseFontSize": 16,
-  "textFontFamily": "",
-  "monospaceFont": "",
-  "interfaceFont": ""
+  "theme": "obsidian",
+  "cssTheme": "Encore"
 }

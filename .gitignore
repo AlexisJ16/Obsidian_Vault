@@ -4,6 +4,9 @@
 .obsidian/cache
 .obsidian/plugins/obsidian-git/
 
+# Plugin data files may contain API keys / tokens
+.obsidian/plugins/copilot/data.json
+
 # OS metadata
 .DS_Store
 Thumbs.db

@@ -1,1 +1,14 @@
-["dataview","templater-obsidian","obsidian-git","obsidian-calendar-plugin","periodic-notes","obsidian-tasks-plugin","recent-files-obsidian"]
+[
+  "table-editor-obsidian",
+  "dataview",
+  "calendar",
+  "obsidian-day-planner",
+  "homepage",
+  "obsidian-icon-folder",
+  "quickadd",
+  "obsidian-outliner",
+  "copilot",
+  "obsidian-paste-image-rename",
+  "obsidian-latex-suite",
+  "obsidian-git"
+]

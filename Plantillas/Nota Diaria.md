@@ -1,29 +1,64 @@
 ---
 fecha: <% tp.date.now("YYYY-MM-DD") %>
 día: <% tp.date.now("dddd", 0, "es") %>
+semana: <% tp.date.now("gggg-[W]ww") %>
 tags:
   - diario
-estado: activo
+  - fleeting
+estado: procesar
 ---
 
 # 📅 <% tp.date.now("DD [de] MMMM [de] YYYY", 0, "es") %>
 
-## 🌅 Intención del día
-> ¿Cuál es mi intención principal para hoy?
+## 🎯 Intención del día
+
+> ¿Cuál es mi prioridad #1 hoy?
+
+---
 
 ## ✅ Tareas del día
 
-- [ ] 
-- [ ] 
-- [ ] 
+### Académico
+- [ ]
 
-## 📝 Notas y reflexiones
+### Profesional (Carrillo Abogados)
+- [ ]
 
-## 🔗 Conexiones
-> Ideas o notas relacionadas con lo de hoy.
-
-## 🌙 Reflexión final
-> ¿Qué aprendí hoy? ¿Qué puedo mejorar mañana?
+### Personal
+- [ ]
 
 ---
-**Ayer:** [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | **Mañana:** [[<% tp.date.now("YYYY-MM-DD", 1) %>]]
+
+## 💡 Ideas capturadas (Fleeting Notes)
+
+<!-- Escribe aquí cualquier idea, insight o aprendizaje. Sin filtros, sin editar. -->
+<!-- Estas ideas serán procesadas en 01 - Notas Permanentes -->
+
+-
+
+---
+
+## 📝 Notas de clase / trabajo
+
+<!-- Notas tomadas durante reuniones, clases, lecturas -->
+
+---
+
+## 🔗 Conexiones detectadas hoy
+
+<!-- ¿Qué conexiones entre ideas descubrí hoy? -->
+
+---
+
+## 🌙 Revisión final
+
+### ¿Qué logré hoy?
+
+### ¿Qué aprendí?
+
+### ¿Qué procesan para notas permanentes?
+- [ ] Procesar idea: ___
+
+---
+
+**← Ayer:** [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | **Mañana →:** [[<% tp.date.now("YYYY-MM-DD", 1) %>]]

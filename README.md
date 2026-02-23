@@ -1,6 +1,6 @@
-# 🧠 Obsidian Vault — PKM Personal
+# PKM Vault — Gestión del Conocimiento Personal
 
-Repositorio de sincronización digital del Vault de Obsidian, orientado a la gestión del conocimiento personal (PKM), académico y profesional.
+Sistema PKM (Personal Knowledge Management) combinando **PARA Method** + **Zettelkasten**, diseñado para gestión académica (MIAA — Universidad Icesi) y profesional (Carrillo Abogados).
 
 ---
 
@@ -8,72 +8,66 @@ Repositorio de sincronización digital del Vault de Obsidian, orientado a la ges
 
 ```
 Obsidian_Vault/
-├── 00 - Inbox/              # Captura rápida (bandeja de entrada)
-├── 01 - Notas Permanentes/  # Conocimiento procesado (Zettelkasten)
-├── 02 - Proyectos/          # Proyectos activos
-├── 03 - Áreas/
-│   ├── Académico/           # Estudios, materias, investigación
-│   ├── Profesional/         # Trabajo, carrera, habilidades
-│   └── Personal/            # Hábitos, salud, finanzas, reflexiones
-├── 04 - Recursos/
-│   ├── Libros/
-│   ├── Artículos/
-│   ├── Cursos/
-│   └── Videos/
-├── 05 - Archivo/            # Notas y proyectos completados
+├── 00 - Inbox/              # Captura rápida — fleeting notes (< 48h para procesar)
+├── 01 - Notas Permanentes/  # Zettelkasten: notas atómicas ZKxxx, MOCs
+│   ├── PKM/                 # Metodología de gestión del conocimiento
+│   ├── Data Science/        # Conceptos de ciencia de datos
+│   ├── IA & LLMs/           # Modelos de lenguaje, RAG, etc.
+│   └── MOC - Índice General # Punto de entrada al Zettelkasten
+├── 02 - Proyectos/          # PARA: Metas con fecha límite
+│   ├── MIAA - Universidad Icesi/
+│   │   ├── Análisis de Datos I/
+│   │   └── Aprendizaje Automático/
+│   └── Carrillo Abogados/
+│       └── Asistente Virtual Legal.md
+├── 03 - Áreas/              # PARA: Responsabilidades continuas
+│   ├── Académico/           # Estudiante MIAA
+│   ├── Profesional/         # Dev en Carrillo Abogados
+│   └── Personal/
+├── 04 - Recursos/           # PARA: Material de referencia
+│   ├── Herramientas/        # Claude Code, Obsidian, etc.
+│   ├── Data Science & IA/
+│   └── LegalTech/
+├── 05 - Archivo/            # PARA: Completados e inactivos
 ├── Diario/
 │   ├── Diarios/             # Notas diarias
 │   └── Semanales/           # Revisiones semanales
-├── Plantillas/              # Plantillas reutilizables
+├── Plantillas/              # Plantillas Templater
 ├── Adjuntos/                # Imágenes y archivos multimedia
-└── Dashboard.md             # Vista principal del vault
+└── Dashboard.md             # Centro de comando
 ```
 
 ---
 
-## 🔌 Plugins recomendados (Community Plugins)
+## 🧠 Metodología: PARA + Zettelkasten
+
+| Sistema | Propósito | En este vault |
+|---------|-----------|--------------|
+| **PARA** (Tiago Forte) | Organizar por accionabilidad | Carpetas 00–05 |
+| **Zettelkasten** (Luhmann) | Red de conocimiento atómico | `01 - Notas Permanentes/` (ZKxxx) |
+
+**Flujo:** Inbox → Literature Note → Permanent Note (ZKxxx) → Conectar → MOC
+
+---
+
+## 🔌 Plugins recomendados
 
 | Plugin | Función |
 |--------|---------|
-| [Dataview](https://github.com/blacksmithgu/obsidian-dataview) | Consultas dinámicas sobre las notas |
-| [Templater](https://github.com/SilentVoid13/Templater) | Plantillas avanzadas con variables y JavaScript |
-| [Obsidian Git](https://github.com/denolehov/obsidian-git) | Sincronización automática con este repositorio |
-| [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) | Visualización de notas diarias en calendario |
-| [Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes) | Notas diarias, semanales y mensuales |
-| [Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks) | Gestión avanzada de tareas |
-| [Recent Files](https://github.com/tgrosinger/recent-files-obsidian) | Acceso rápido a archivos recientes |
-
----
-
-## 🗂️ Metodología
-
-Este vault combina dos metodologías PKM líderes:
-
-- **PARA** (Projects · Areas · Resources · Archive) — para organizar la información por accionabilidad.
-- **Zettelkasten** — para construir una red de conocimiento permanente y atómico en `01 - Notas Permanentes`.
-
----
-
-## ⚙️ Configuración de Obsidian Git
-
-1. Instala el plugin **Obsidian Git** desde la tienda de plugins de la comunidad.
-2. En los ajustes del plugin, configura:
-   - **Vault backup interval**: `10` minutos (o el valor que prefieras).
-   - **Auto pull interval**: `10` minutos.
-   - **Commit message**: `vault backup: {{date}}`.
-3. El archivo `.gitignore` ya está configurado para excluir `workspace.json` y la caché local.
+| [Dataview](https://github.com/blacksmithgu/obsidian-dataview) | Consultas dinámicas |
+| [Templater](https://github.com/SilentVoid13/Templater) | Plantillas avanzadas |
+| [Obsidian Git](https://github.com/denolehov/obsidian-git) | Sincronización con GitHub |
+| [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) | Vista calendario |
+| [Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes) | Notas diarias/semanales |
 
 ---
 
 ## 🚀 Inicio rápido
 
-1. Clona este repositorio en tu equipo:
-   ```bash
-   git clone https://github.com/AlexisJ16/Obsidian_Vault.git
-   ```
-2. Abre Obsidian → **Abrir carpeta como vault** → selecciona la carpeta clonada.
-3. Instala los plugins listados arriba desde *Ajustes → Plugins de la comunidad*.
-4. Abre `Dashboard.md` como punto de entrada principal.
+1. Abre `Dashboard.md` como punto de entrada
+2. Para nueva idea → `00 - Inbox/` o nota diaria
+3. Para explorar conceptos → `01 - Notas Permanentes/MOC - Índice General`
+4. Para ver proyectos → `02 - Proyectos/`
 
 ---
 
